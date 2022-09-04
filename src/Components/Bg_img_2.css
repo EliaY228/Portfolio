@@ -1,0 +1,56 @@
+.mask {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.img_bg2 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+.mask::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.2;
+  /* change this ^^ for a better background opacity */
+}
+
+.bg_img_2 {
+  height: 100%;
+  width: 100%;
+}
+
+.bg_img_2 .content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+.bg_img_2 .content h1 {
+  font-size: 2.4rem;
+  padding: 0.6rem 0;
+}
+
+.bg_img_2 .content p {
+  font-size: 1.4rem;
+  font-weight: 500;
+
+  /* text-transform: uppercase; */
+}
+
+@media screen and (max-width: 640px) {
+  .bg_img_2 .content h1 {
+    font-size: 2rem;
+  }
+}
