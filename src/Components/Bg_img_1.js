@@ -1,5 +1,5 @@
 import "./Bg_img_1.css";
-import Img1 from "../Assets/Bg_img.jpg";
+import Img1 from "../Assets/Bg_img.png";
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaDownload } from "react-icons/fa";

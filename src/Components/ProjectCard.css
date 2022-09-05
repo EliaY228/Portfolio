@@ -23,6 +23,7 @@
 .project-card:hover {
   transform: translateY(-40px);
   opacity: 0.6;
+  transition: 0.3s all;
   cursor: pointer;
 }
 
@@ -61,4 +62,9 @@
 
     grid-template-columns: 1fr;
   }
+}
+.project-card:hover {
+  transform: translateY(0);
+  opacity: 1;
+  transition: 0.3s all;
 }

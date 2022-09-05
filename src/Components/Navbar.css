@@ -97,11 +97,11 @@
 
     border-radius: var(--border-radius);
     transition: background var(--speed);
-    padding: 0.5rem;
   }
 
   .nav li:hover {
     background-color: #525357;
+    transition: 0.3s all;
   }
 
   .nav li a {
@@ -110,5 +110,6 @@
 
   .hamburger {
     display: initial;
+    padding-top: 15px;
   }
 }

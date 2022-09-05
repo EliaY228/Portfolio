@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import Bg_img_2 from "../Components/Bg_img_2";
-import Img3 from "../Assets/Img_6.jpeg";
+import Img3 from "../Assets/Img_6.png";
 import AboutContent from "../Components/AboutContent";
 import Skills from "../Components/Skills";
 

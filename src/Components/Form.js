@@ -38,7 +38,7 @@ const Form = () => {
           <span>Enter your Name</span>
         </div>
         <div className="inputBox">
-          <input type="email" name="email" required="required" />
+          <input type="text" name="email" required="required" />
           <span>Enter your email</span>
         </div>
         <div className="inputBox">

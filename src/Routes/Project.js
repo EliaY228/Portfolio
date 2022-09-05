@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import Bg_img_2 from "../Components/Bg_img_2";
-import Img2 from "../Assets/Img_4.jpeg";
+import Img2 from "../Assets/Img_4.png";
 import Projects from "../Components/Projects";
 
 const Project = () => {
