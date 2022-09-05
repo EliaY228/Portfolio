@@ -44,11 +44,14 @@
 .bg_img_1 .content p {
   font-size: 2.8rem;
   font-weight: 200;
-  /* text-transform: uppercase; */
 }
 
 .content .btn {
   margin: 1rem 0.2rem;
+}
+
+.content .download-icon {
+  margin-top: 3.5px;
 }
 
 @media screen and (max-width: 640px) {
@@ -58,7 +61,5 @@
 
   .bg_img_1 .content p {
     font-size: 2.1rem;
-
-    /* text-transform: uppercase; */
   }
 }

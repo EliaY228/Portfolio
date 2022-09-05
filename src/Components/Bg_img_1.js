@@ -19,7 +19,7 @@ const Bg_img_1 = () => {
           <i>Programmer / Developer</i>
         </h1>
         <div>
-          <Link to={"/"} className="btn" target={"_blank"} download={Resume}>
+          <Link to={Resume} className="btn" target="_blank" download="Resume">
             Resume <FaDownload className="download-icon" />
           </Link>
           <Link to="Contact" className="btn btn-light">
